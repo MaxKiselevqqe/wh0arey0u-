@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+  font-family: 'Roboto Slab', serif;
+    color: black;
+    font-size: 16px;
+}
+.container {
+    width: 1180px;
+    margin: 0 auto;
+  }
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.header {
+     background: url('../img/bbck.png') no-repeat center top / cover;
+     padding-top: 50px;
+     padding-bottom: 500px;
+}
+header a{
+    color: black; 
+}
+.menu li a {
+ text-transform: uppercase;  
+ text-decoration: none; 
+ font-size: 35px;
+}
+.menu li {
+    margin-right: 35px;
+/*  0тступ между бл0ками*/
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.1em;
+/*    убирает т0чки у ссыл0к*/
+}
+.tel {
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: auto;
+     letter-spacing: 0.0.5em;
+}
+.menu {
+    display: flex;
+    /*  ставит в ряд кликабельные бл0ки*/
+    align-items: center;
+}
+.top menu {
+    display: flex;
+}
+
+.icon {
+    margin-right: 69px;
+}
+.offer{
+    text-transform: uppercase;
+    margin-top: 200px;
+}
+.offer p {
+    font-size: 200px;
+}
+.offer h1 {
+    margin-top: -9px;
+}
+.offer h1 {
+    font-size: 50px;
+}
+.desc-first{ 
+    width: 700px;
+}
+.desc-second{
+    width: 700px;
+}
+
+}
+.description h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.desc-first h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    width 
+}
+.desc-second h3{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.desc-first p {
+    font-size: 20px;
+
+}
+.desc-second p {
+    font-size: 20px;
+
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+.footertext {
+    font-size: 50px;
+    width: 1180px;
+   
+    padding-top: 10px;
+     padding-bottom: 10px;
+
+}
